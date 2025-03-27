@@ -20,4 +20,4 @@ console.log(Dog.instanceCount);
 
 Dog.decreaseCount();
 
-console.log(Dog.instanceCount);x
+console.log(Dog.instanceCount);
