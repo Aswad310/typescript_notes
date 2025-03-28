@@ -1,5 +1,18 @@
-function compareCoords(p1, p2) {
-    return [p1[0], p2[0]];
+function handleMsg(log) {
+    switch (log.type) {
+        case "warning":
+            console.log(log.msg);
+            break;
+        case "info":
+            console.log(log.msg);
+            break;
+        case "success":
+            console.log(log.msg);
+            break;
+    }
 }
-var cord = compareCoords([1, 2], [3, 4]);
-console.log(cord);
+var res1 = handleMsg({
+    type: "warning",
+    msg: "warning",
+});
+console.log(res1);
