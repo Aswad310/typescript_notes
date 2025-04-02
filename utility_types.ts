@@ -1,4 +1,4 @@
-// =======================| Table of Contents |=======================
+// =======================| Utility Types: Table of Contents |=======================
 // 1. Partial<Todo> - Makes all properties of Todo optional
 // 2. Readonly<Todo> - Makes all properties of Todo immutable
 // 3. Record<K, T> - Creates an object type with keys K and values T
